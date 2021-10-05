@@ -1,0 +1,79 @@
+body {
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 18pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 3px dashed #20bcd5;
+    padding: 10px;
+}
+
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO__P0-tP3Fg_v4PBFJfmq-Xq5l54MPz3ryg&usqp=CAU");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#header p {
+    font-size: 30pt;
+    color: #224050;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #00fff7;
+    background: #efefef;
+}
+
+#contacts img {
+    height: 75px;
+    width: 75px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: grey;
+}
