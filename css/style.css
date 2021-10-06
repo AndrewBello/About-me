@@ -56,12 +56,15 @@ li {
     font-weight: bold;
 }
 progress {
-    width: 70%;
+    width: 50%;
     height: 20px;
+
     color: #00fff7;
     background: #efefef;
 }
-
+progress::-webkit-progress-value {
+  background: #00fff7;
+}
 
 #contacts {
     text-align: center;
